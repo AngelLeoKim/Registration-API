@@ -1,0 +1,94 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the registration form */
+.registration-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Form heading */
+.registration-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #333333;
+}
+
+/* Styling for labels */
+.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555555;
+}
+
+/* Styling for input fields and select dropdowns */
+.registration-form input,
+.registration-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Button styling */
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Button hover effect */
+.registration-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Focus effect for inputs and select dropdowns */
+.registration-form input:focus,
+.registration-form select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 480px) {
+    .registration-form {
+        padding: 15px;
+    }
+
+    .registration-form h2 {
+        font-size: 20px;
+    }
+
+    .registration-form label,
+    .registration-form input,
+    .registration-form select,
+    .registration-form button {
+        font-size: 14px;
+    }
+}
